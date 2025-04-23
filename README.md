@@ -1,11 +1,11 @@
 # Frontend ülesande lahendus
 Autor: Marten Mathias Jaani
 
-Siin on minu lahendus **Click Counter Test Task** ülesandele, allpool on instruktsioonid käivitamiseks nii lokaalselt kui ka Docker konteineri kaudu
+Siin on minu lahendus **Click Counter Test Task** ülesandele
 
 Lahendus kasutab Svelte raamistikku ja Vite serverit
 
-### Instruktsioonid käivitamiseks lokaalselt
+### Instruktsioonid käivitamiseks
 (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```)
 
 1. Paki kaust lahti
