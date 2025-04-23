@@ -23,4 +23,12 @@ describe('Click Counter', () => {
 
     expect(textValue).toEqual('10');
   });
+  // added be me (Marten)
+  it('Should reset count to 0 with reset button', async () => {
+    await page.click('[name="click-reset"]');
+    await page.waitForSelector(countSelector);
+    const element = await page.$(countSelector);
+    const textValue = await page.evaluate((searchElement) => searchElement.textContent, element);
+    expect(textValue).toEqual('0');
+  });
 });
