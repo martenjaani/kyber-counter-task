@@ -19,7 +19,7 @@ yarn dev
 
 Windows cmd
 ```cmd
-setx PAGE_URL "http://localhost:3000"
+set PAGE_URL "http://localhost:3000"
 yarn test
 ```
 Linux
