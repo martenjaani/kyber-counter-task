@@ -9,7 +9,8 @@ Lahendus kasutab Svelte raamistikku ja Vite serverit
 (vaja on node.js ja yarn/npm (sel juhul käskudes kasutada ```yarn``` asemel ```npm```)
 
 1. Paki kaust lahti
-2. Käivita backend
+2. Mine käsureaga projekti root kausta
+3. Käivita backend
 ```cmd
 yarn install
 yarn dev
@@ -26,5 +27,5 @@ Linux
 PAGE_URL="http://localhost:3000" yarn test
 ```
 
-
+Repo link: https://github.com/martenjaani/kyber-counter-task
 
